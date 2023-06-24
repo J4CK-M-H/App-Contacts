@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('public/fonts/Rubik.ttf');
+}
+
+
+.fill-colums {
+  grid-template-columns: repeat(auto-fill, minmax(19rem,1fr));
+}
+
+.nuevo {
+  background: red;
+}
